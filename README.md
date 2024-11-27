@@ -8,8 +8,9 @@ This project involves the creation of a python script for ArcGIS PRO. This tool 
 ![Sample points](/img/sampling_points_raw.png "EE-readable converted points")
 3. Using the previous points, the elevation was sampled from the DEM.
 
+- Before sampling the elevation
 ```json
-    // Before sampling the elevation
+
     {'type': 'FeatureCollection',
     'columns': {'system:index': 'String'},
     'features': [{'type': 'Feature',
@@ -22,8 +23,8 @@ This project involves the creation of a python script for ArcGIS PRO. This tool 
     ]
     }
 ```
+- After sampling elevation. NOTICE THE NEW VALUE AT `elevation`.
 ```json
-    // After sampling elevation 
     {'type': 'FeatureCollection',
     'columns': {},
     'properties': {'band_order': ['elevation']},
@@ -32,7 +33,7 @@ This project involves the creation of a python script for ArcGIS PRO. This tool 
         'type': 'Point',
         'coordinates': [-78.01426489169957, 35.429736096570515]},
     'id': '0_0',
-    'properties': {'elevation': 22.24553871154785}}, // NOTICE THIS NEW VALUE
+    'properties': {'elevation': 22.24553871154785}},
     {...}
     ]
     }
