@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Tuesday, November 26, 2024 12:00:23 AM</msg><msg code="-2147467259" type="100">﻿  File "C:\Users\mgavil3\Box\CursosLSU\GISProgramming4057\Projects\P2\Project2ArcGIS\Project2ArcGIS.atbx\GetElevation.tool\tool.script.execute.py", line 1
+    C:\Users\mgavil3\AppData\Local\Temp\ArcGISProTemp17124\tmpn5kugu.py
+       ^
+﻿SyntaxError: unexpected character after line continuation character
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (GetElevation).</msg><msg code="0" type="3">Failed at Tuesday, November 26, 2024 12:00:24 AM (Elapsed Time: 1.36 seconds)</msg></messages>
