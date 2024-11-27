@@ -1,4 +1,5 @@
 # Project 2
+> The final tool
 
 This project involves the creation of a python script for ArcGIS PRO. This tool allows the user to load a CSV file with the points to be sampled. The raster to be sampled needs to be a DEM. In this tool, this elevation model is the `USGS/3DEP/10m`, an elevation model that cover all the United States including Alaska and Hawaii.
 
@@ -47,7 +48,10 @@ Nonetheless, these values are not ready to be used in ArcGIS or QGIS yet. These 
 6. Finally, the `arcpy.da.InsertCursor` was used to insert both the point and its sampled elevation.
 ![Inserting elevation values](/img/arcgis_shp_elevationValues.png "Inserting elevation values")
 
-## The code
+### Using the Script Through the GUI in ArcGIS Pro
+![ArcGIS GUI Script tool](/img/arcgisGUI.png "Using ArcGIS Pro GUI")
+
+### The code
 
 ```python
 import arcpy
